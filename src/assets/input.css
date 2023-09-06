@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .right-btn {
+        @apply inline-block right-6 top-1/2 text-red-500 -translate-y-1/2 rounded-full absolute p-2 bg-white hover:bg-opacity-100 bg-opacity-50 hover:shadow-inner
+    }
+
+    .left-btn {
+        @apply inline-block top-1/2 -translate-y-1/2 absolute p-2 ml-4 rounded-full bg-white hover:bg-opacity-100 bg-opacity-50 hover:shadow-inner
+    }
+}
